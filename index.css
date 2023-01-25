@@ -1,0 +1,12 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+
+img{
+    border-radius: 20px;
+    width: 450px;
+    height: 500px;
+}
