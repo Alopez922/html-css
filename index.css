@@ -1,12 +1,45 @@
 .card-container{
     display: flex;
     justify-content: center;
+    width: 600px;
+    height:600px;
     padding: 200px;
+    
 }
 
+.imageContainer{
+    position: relative;
+}
 
 img{
     border-radius: 20px;
     width: 450px;
     height: 500px;
+    position: relative;
+}
+
+.descuento{
+    position: absolute;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    top: 260px;
+    left: 600px;
+    background-color: red;
+    border-radius: 20px;
+   
+}
+
+.titulo-comida{
+    display: flex;
+    text-align: center;
+    background-color: red;
+    border-radius: 30px;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: white;
+   
 }
