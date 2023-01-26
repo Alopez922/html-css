@@ -28,7 +28,6 @@ body{
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    
 }
 
 .container .card:hover{
@@ -37,10 +36,11 @@ body{
 
 }
 
-.container .card img{
+.imagen img{
 width: 330px;
 height: 220px;
-position: relative; 
+position: relative;
+display: inline-block; 
 }
 
 .container .card p{
@@ -49,14 +49,15 @@ position: relative;
     font-weight: 300;
 }
 
-.container .card {
+.imagen .descuento{
     position: absolute;
-    border-radius: 10px 0 0 0;
-    font-size: 15px;
-    font-weight: 500;
-    color: #c4af3d;
+    top: 40px;
+    left: 55.6%;
+    background-color: red;
     
 }
+
+
 
 
 
